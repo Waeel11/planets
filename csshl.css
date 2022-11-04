@@ -1,0 +1,133 @@
+*{
+margin: 0;
+padding: 0;
+font-family: 'Poppins', sans-serif;
+
+}
+/* style bar*/
+.nev{
+overflow: hidden;
+background-color: rgb(34, 34, 247);
+}
+.nev a {
+    float: left;
+    color: rgb(214, 214, 214);
+    background-color: transparent;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.nev a:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+body{
+    background-color:#1a1a1a;
+
+}
+
+/*style صورة الواجهة*/
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+figcaption{
+color: #fff;
+font-style: italic;
+padding: 2px;
+text-align: center;
+}
+/* style background */
+.header{
+ min-height: 100vh;
+width: 100%;
+background-size: cover;
+background-position: center;
+position: relative;
+}
+/* جزء الكلام اللي على الخلفية*/
+.text-box{
+width: 100%;
+color: rgb(255, 255, 255);
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+text-align: center;
+
+}
+.text-box h1{
+font-size: 62px;
+color: #fff;
+
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 20px;
+    color: #fff;
+    
+}
+/* style paragraph*/
+.theme{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.theme h1{
+    text-shadow:2px 2px #19305a;
+    text-align: center;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 600;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+    color: #fff;
+   
+}
+
+p,label{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+  
+
+} 
+/* style moons*/
+.row{
+margin-top:5px ;
+display: flex ;
+justify-content:space-between ;
+}
+
+.moons{ 
+width: 80%;
+margin: auto;
+text-align: center;
+padding-top: 100px;
+}
+
+.moons-col{
+    text-align: left;
+    color: #fff;
+    }
+
+
+.moons-col img{
+    width: 100%;
+    border-radius:10px ;
+}
+ /* style img in neptune page*/
+.size img{
+    width: 100%;
+    border-radius: 10px;
+}
